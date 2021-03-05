@@ -1,18 +1,18 @@
 
-#cara install
+**###cara install**
 
-$ > git clone https://github.com/portofoliodesign99/kas.git
-$ > cd kas
-$ > composer install
-$ > cp env.example .env
-    jangan lupa konfigurasi database dengan nama yang anda buat diadatabase. 
-$ > composer dump-autoload
-$ > php artisan migrate
-$ > php artisan db:seed
-    username : admin
-    password : admin
+`$ > git clone https://github.com/portofoliodesign99/kas.git`
+`$ > cd kas`
+`$ > composer install`
+`$ > cp env.example .env`
+    `jangan lupa konfigurasi database dengan nama yang anda buat didatabase.` 
+`$ > composer dump-autoload`
+`$ > php artisan migrate`
+`$ > php artisan db:seed`
+    `username : admin`
+    `password : admin`
 
-#running program
+**###running program**
 
-$ > cd kas
-$ > php artisan serve
+`$ > cd kas`
+`$ > php artisan serve`
